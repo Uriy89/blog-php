@@ -10,10 +10,10 @@
 
     <hr>
 
-    <from class="form-horizontal" action="{{route('admin.category.store')}}" method="post">
+    <form class="form-horizontal" action="{{route('admin.category.store')}}" method="post">
         {{ csrf_field() }}
 
         @include('admin.categories.partials.form')
-    </from>
+    </form>
 </div>
 @endsection

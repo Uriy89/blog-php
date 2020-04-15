@@ -23,4 +23,4 @@
 
 <hr />
 
-<input class="btn btn-primary" type="submit" value="Сохранить">
+<input class="btn btn-primary" type="submit" value="Сохранить" />
