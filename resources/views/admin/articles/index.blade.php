@@ -23,7 +23,7 @@
                     <td>{{$article->title}}</td>
                     <td>{{$article->published}}</td>
                     <td class="text-right">
-                        <form onsubmit="if(confirm('Удалить?')){return true} else {return false}" action="{{route('admin.category.destroy', $article)}}" method="post">
+                        <form onsubmit="if(confirm('Удалить?')){return true} else {return false}" action="{{route('admin.article.destroy', $article)}}" method="post">
                             <input type="hidden" name="_method" value="DELETE">
                             {{csrf_field()}}
                             <a class="btn btn-default" href="{{route('admin.article.edit', $article)}}"><i class="fa fa-edit"></i></a>

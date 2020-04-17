@@ -83,6 +83,8 @@
     <main class="py-4">
         @yield('content')
     </main>
+    <script src="{{asset('/vendor/unisharp/laravel-ckeditor/ckeditor.js')}}"></script>
+
 </div>
 </body>
 </html>
